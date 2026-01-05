@@ -1,0 +1,94 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+/* share style */
+.logo h1{
+        font-size: 45px;
+        font-weight: 900;
+}
+.color-orange{
+    color: #FD6E0A;
+}
+.btn{
+    font: bold;
+    font-size: 20px;
+    background-color: #FD6E0A;
+    color: #fdfbfa;
+    border: none;
+    padding: 17px 35px 19px 42px;
+    border-radius: 5px;
+}
+/* main style */
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 51px;
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top 40px left 24px,bottom right;
+}
+
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 2px solid lightblue; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 44px;
+    align-items: center;
+    
+}
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+#ban {
+    /* border: 1px solid green; */
+    margin: 46px 67px 0px 229px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+
+}
+#ban .ban-con h2{
+            font: 600;
+            font-size: 45px;
+            margin-bottom: 5px;
+            color: #474747;
+            max-width: 585px;
+}
+#ban .ban-con h1{
+    font: bold;
+    font-size: 85px;
+    color: black;
+    margin-bottom: 20px;
+}
+#ban .ban-con p{
+    font: 400;
+    font-size: 18px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+#ban .ban-img img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+#btn-cv{
+    margin-right: 30px;
+}
